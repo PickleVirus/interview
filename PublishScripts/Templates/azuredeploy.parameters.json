@@ -1,0 +1,24 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "StorageAccountName": {
+      "value": "unistore01"
+    },
+    "vmName": {
+      "value": "KIISVM"
+    },
+    "vmSize": {
+      "value": "Standard_A2"
+    },
+    "imageSKU": {
+      "value": "2012-R2-Datacenter"
+    },
+    "adminUsername": {
+      "value": "VMAdmin"
+    },
+    "adminPassword": {
+      "value": "VMPassword00"
+    }
+  }
+}
